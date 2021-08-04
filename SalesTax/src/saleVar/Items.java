@@ -1,13 +1,12 @@
 package saleVar;
 
 public class Items {
-	
+
 	private double itemsPrice;
 	private char essentialOrNonEssentialGood;
 	private String importedOrNotImported;
 	private double finalPrice;
-	
-	
+
 	public double getItemsPrice() {
 		return itemsPrice;
 	}
@@ -54,11 +53,5 @@ public class Items {
 		builder.append("]");
 		return builder.toString();
 	}
-
-	
-	
-	
-	
-	
 
 }
